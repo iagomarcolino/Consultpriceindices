@@ -1,0 +1,70 @@
+name: Daily Market Data (yfinance)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 22:15 UTC = 19:15 Brasil (-03). Dias úteis.
+    - cron: "15 22 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: marketdata-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir yfinance pandas numpy
+
+      - name: Run updater script (with retries)
+        shell: bash
+        run: |
+          set -e
+          for i in 1 2 3; do
+            echo "Attempt $i..."
+            python -u scripts/update_marketdata.py && break
+            echo "Run failed. Retrying in 10s..."
+            sleep 10
+          done
+
+      - name: Show git diff (debug)
+        run: |
+          git status --porcelain
+          git diff --stat || true
+
+      - name: Commit and push updated JSON (only if changed)
+        shell: bash
+        run: |
+          set -e
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/marketdata.json
+            git commit -m "auto: update marketdata.json"
+
+            # evita falha se houver atualização remota simultânea
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
