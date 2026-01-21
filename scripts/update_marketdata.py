@@ -8,96 +8,119 @@ import yfinance as yf
 
 # ========= CONFIG =========
 SYMBOLS = {
-    "ABEV3.SA": "Ambev",
-    "ALOS3.SA": "Allos",
-    "ASAI3.SA": "Assaí",
-    "AURE3.SA": "Auren Energia",
-    "AXIA3.SA": "Axia (Verificar Ticker)", # Provável erro ou ticker específico
-    "AXIA6.SA": "Axia (Verificar Ticker)",
-    "AXIA7.SA": "Axia (Verificar Ticker)",
-    "AZZA3.SA": "Azzas 2154 (Arezzo+Soma)",
-    "B3SA3.SA": "B3",
-    "BBAS3.SA": "Banco do Brasil",
-    "BBDC3.SA": "Bradesco (ON)",
-    "BBDC4.SA": "Bradesco (PN)",
-    "BBSE3.SA": "BB Seguridade",
-    "BEEF3.SA": "Minerva",
-    "BPAC11.SA": "BTG Pactual",
-    "BRAP4.SA": "Bradespar",
-    "BRAV3.SA": "Brava Energia (3R + Enauta)",
-    "BRKM5.SA": "Braskem",
-    "CEAB3.SA": "C&A",
-    "CMIG4.SA": "Cemig",
-    "CMIN3.SA": "CSN Mineração",
-    "COGN3.SA": "Cogna",
-    "CPFE3.SA": "CPFL Energia",
-    "CPLE3.SA": "Copel",
-    "CSAN3.SA": "Cosan",
-    "CSMG3.SA": "Copasa",
-    "CSNA3.SA": "CSN Siderúrgica",
-    "CURY3.SA": "Cury Construtora",
-    "CXSE3.SA": "Caixa Seguridade",
-    "CYRE3.SA": "Cyrela",
-    "CYRE4.SA": "Cyrela (PN)", # Pouco líquida
-    "DIRR3.SA": "Direcional",
-    "EGIE3.SA": "Engie Brasil",
-    "EMBJ3.SA": "Embraer (Verificar: EMBR3)",
-    "ENEV3.SA": "Eneva",
-    "ENGI11.SA": "Energisa",
-    "EQTL3.SA": "Equatorial",
-    "FLRY3.SA": "Fleury",
-    "GGBR4.SA": "Gerdau",
-    "GOAU4.SA": "Metalúrgica Gerdau",
-    "HAPV3.SA": "Hapvida",
-    "HYPE3.SA": "Hypera Pharma",
-    "IGTI11.SA": "Iguatemi",
-    "IRBR3.SA": "IRB Re",
-    "ISAE4.SA": "ISA CTEEP (TRPL4)",
-    "ITSA4.SA": "Itaúsa",
-    "ITUB4.SA": "Itaú Unibanco",
-    "KLBN11.SA": "Klabin",
-    "LREN3.SA": "Lojas Renner",
-    "MBRF3.SA": "Marfrig (Verificar: MRFG3)",
-    "MGLU3.SA": "Magazine Luiza",
-    "MOTV3.SA": "Movida (Verificar: MOVI3)",
-    "MRVE3.SA": "MRV",
-    "MULT3.SA": "Multiplan",
-    "NATU3.SA": "Natura",
-    "PCAR3.SA": "Pão de Açúcar",
-    "PETR3.SA": "Petrobras (ON)",
-    "PETR4.SA": "Petrobras (PN)",
-    "POMO4.SA": "Marcopolo",
-    "PRIO3.SA": "Prio (PetroRio)",
-    "PSSA3.SA": "Porto Seguro",
-    "RADL3.SA": "Raia Drogasil",
-    "RAIL3.SA": "Rumo",
-    "RAIZ4.SA": "Raízen",
-    "RDOR3.SA": "Rede D'Or",
-    "RECV3.SA": "PetroReconcavo",
-    "RENT3.SA": "Localiza",
-    "RENT4.SA": "Localiza (PN - Antiga)",
-    "SANB11.SA": "Santander Brasil",
-    "SBSP3.SA": "Sabesp",
-    "SLCE3.SA": "SLC Agrícola",
-    "SMFT3.SA": "Smart Fit",
-    "SUZB3.SA": "Suzano",
-    "TAEE11.SA": "Taesa",
-    "TIMS3.SA": "TIM",
-    "TOTS3.SA": "Totvs",
-    "UGPA3.SA": "Ultrapar",
-    "USIM5.SA": "Usiminas",
-    "VALE3.SA": "Vale",
-    "VAMO3.SA": "Vamos",
-    "VBBR3.SA": "Vibra (BR Distribuidora)",
-    "VIVA3.SA": "Vivara",
-    "VIVT3.SA": "Vivo",
-    "WEGE3.SA": "WEG",
-    "YDUQ3.SA": "Yduqs (Estácio)",
+    # =========================
+    # 🇺🇸 NEW YORK (NYSE)
+    # =========================
+    "^DJI": "Dow Jones Industrial Average (DJIA)",
+    "^NYA": "NYSE Composite Index",
+
+    # =========================
+    # 🇺🇸 CHICAGO / NASDAQ
+    # =========================
+    "^IXIC": "Nasdaq Composite Index",
+    "^NDX": "Nasdaq 100 (NDX)",
+
+    # =========================
+    # 🇨🇦 TORONTO
+    # =========================
+    "^GSPTSE": "S&P/TSX Composite Index",
+    #"^TX60": "S&P/TSX 60 Index",   #não funciona
+    # Toronto (TSX 60) - troca ^TX60
+    "TX60.TS": "S&P/TSX 60 Index",  # índice no Yahoo
+    # ou, se preferir proxy via ETF:
+    # "XIU.TO": "iShares S&P/TSX 60 Index ETF"
+
+    # =========================
+    # 🇬🇧 LONDON
+    # =========================
+    "^FTSE": "FTSE 100",
+    "^FTMC": "FTSE 250",
+
+    # =========================
+    # 🇪🇺 EURONEXT
+    # =========================
+    "^FCHI": "CAC 40 (France)",
+    "^AEX": "AEX (Netherlands)",
+    "^BFX": "BEL 20 (Belgium)",
+
+    # =========================
+    # 🇩🇪 FRANKFURT
+    # =========================
+    "^GDAXI": "DAX 40 (Germany)",
+    "^MDAXI": "MDAX (Germany Mid Caps)",
+
+    # =========================
+    # 🇨🇭 ZURICH
+    # =========================
+    "^SSMI": "SMI - Swiss Market Index",
+    "^SSHI": "SPI - Swiss Performance Index",
+
+    # =========================
+    # 🇮🇳 INDIA
+    # =========================
+    "^BSESN": "SENSEX (India)",
+    "^NSEI": "NIFTY 50 (India)",
+
+    # =========================
+    # 🇧🇷 BRAZIL - B3
+    # =========================
+    "^BVSP": "Ibovespa (IBOV)",
+    #"^IBX100": "IBrX 100", #não funciona
+    "^IBX50": "IBrX 50",
+    # Brasil (IBrX 100) - troca ^IBX100
+    "BRAX11.SA": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
+
+    # =========================
+    # 🇯🇵 JAPAN - TOKYO
+    # =========================
+    "^N225": "Nikkei 225",
+    #"^TOPX": "TOPIX",  #não funciona
+    "1306.T": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
+    # ou:
+    # "1475.T": "iShares Core TOPIX ETF (proxy do TOPIX)",
+    
+    # =========================
+    # 🇰🇷 SOUTH KOREA - SEOUL
+    # =========================
+    "^KS11": "KOSPI (South Korea)",
+    "^KQ11": "KOSDAQ (South Korea)",
+
+    # =========================
+    # 🇨🇳 CHINA - SHANGHAI / SHENZHEN
+    # =========================
+    "000001.SS": "SSE Composite Index (Shanghai)",
+    "000300.SS": "CSI 300 (Shanghai + Shenzhen)",
+
+    "399001.SZ": "SZSE Component Index (Shenzhen)",
+    "399006.SZ": "ChiNext Index (Shenzhen)",
+
+    # =========================
+    # 🇭🇰 HONG KONG
+    # =========================
+    "^HSI": "Hang Seng Index (HK50)",
+
+    # =========================
+    # 🇦🇺 AUSTRALIA - SYDNEY
+    # =========================
+    "^AXJO": "S&P/ASX 200",
+
+    # =========================
+    # 🇸🇬 SINGAPORE
+    # =========================
+    "^STI": "Straits Times Index (Singapore)",
 }
 
 LOOKBACK = "400d"
 INTERVAL = "1d"
 TRADING_DAYS = 252
+
+# janelas (em pregões) para vol anualizada por janela
+WINDOWS = {
+    "weekly": 5,
+    "monthly": 21,
+    "quarterly": 63,
+    "semiannual": 126,
+}
 
 OUT_JSON = "data/marketdata.json"
 OUT_CSV = None  # ex.: "data/marketdata.csv"
@@ -111,48 +134,57 @@ def chunked(lst, n):
 def _append_nulls(results, batch):
     """Se um batch falhar, adiciona linhas com null para não quebrar o pipeline."""
     for sym in batch:
-        # Busca o nome no dicionário SYMBOLS
-        company_name = SYMBOLS.get(sym, sym) 
-        
+        company_name = SYMBOLS.get(sym, sym)
         results.append(
             {
                 "symbol": sym,
-                "name": company_name, 
+                "name": company_name,
                 "price": None,
                 "vol_annual": None,
+                "vol_semiannual": None,
+                "vol_quarterly": None,
+                "vol_monthly": None,
+                "vol_weekly": None,
             }
         )
 
 
 def _extract_close_df(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Extrai a matriz de fechamentos (Close) no formato:
-      index = datas
-      colunas = tickers
-    Suporta o formato que o yfinance devolve para 1 ticker ou vários tickers.
-    """
-    # Caso o df venha vazio
+    """Extrai a matriz de fechamentos (Close) para 1 ou vários tickers."""
     if df is None or df.empty:
         return pd.DataFrame()
 
-    # Caso comum com group_by="column": df["Close"] funciona se existir
     if "Close" in df.columns:
         close = df["Close"]
         if isinstance(close, pd.Series):
             close = close.to_frame()
         return close
 
-    # Caso alternativo: MultiIndex nas colunas (ex.: ('Close', 'PETR4.SA'))
     if isinstance(df.columns, pd.MultiIndex):
-        # tenta achar o nível "Close"
         if "Close" in df.columns.get_level_values(0):
             close = df.xs("Close", axis=1, level=0, drop_level=True)
             if isinstance(close, pd.Series):
                 close = close.to_frame()
             return close
 
-    # Se não conseguiu extrair
     return pd.DataFrame()
+
+
+def _ann_vol_from_logret_window(logret: pd.DataFrame, window: int) -> pd.Series:
+    """
+    Vol anualizada estimada usando apenas os últimos 'window' retornos diários.
+    Retorna Series indexada pelos tickers.
+    """
+    if logret is None or logret.empty:
+        return pd.Series(dtype="float64")
+
+    tail = logret.tail(window)
+
+    # Precisa de pelo menos 2 observações para std com ddof=1
+    if len(tail.index) < 2:
+        return pd.Series(index=logret.columns, dtype="float64")
+
+    return tail.std(axis=0, ddof=1) * np.sqrt(TRADING_DAYS)
 
 
 def main():
@@ -179,24 +211,18 @@ def main():
 
         close = _extract_close_df(df)
 
-        # Se não veio nada de Close / veio vazio, não quebra: registra null e segue
         if close.empty or len(close.index) == 0:
             print("[WARN] Batch retornou vazio/sem Close. Registrando nulls.")
             _append_nulls(results, batch)
             continue
 
-        # Garante que todas as colunas estejam presentes (se alguns tickers falharam)
-        # cria colunas faltantes com NaN
         for sym in batch:
             if sym not in close.columns:
                 close[sym] = np.nan
 
-        # Ordena colunas para consistência (opcional)
         close = close[batch]
 
-        # Último preço conhecido por ticker
         close_ffill = close.ffill()
-        # Se por algum motivo ainda não tiver linha depois do ffill, evita iloc[-1]
         if close_ffill.empty or len(close_ffill.index) == 0:
             print("[WARN] Close após ffill ficou vazio. Registrando nulls.")
             _append_nulls(results, batch)
@@ -204,23 +230,41 @@ def main():
 
         last_price = close_ffill.iloc[-1]
 
-        # Vol anualizada (log-retornos)
+        # Log-retornos diários
         logret = np.log(close / close.shift(1))
-        vol = logret.std(axis=0, ddof=1) * np.sqrt(TRADING_DAYS)
+
+        # Vol anualizada usando todo o período
+        vol_annual = logret.std(axis=0, ddof=1) * np.sqrt(TRADING_DAYS)
+
+        # Vol anualizada por janelas
+        vol_weekly = _ann_vol_from_logret_window(logret, WINDOWS["weekly"])
+        vol_monthly = _ann_vol_from_logret_window(logret, WINDOWS["monthly"])
+        vol_quarterly = _ann_vol_from_logret_window(logret, WINDOWS["quarterly"])
+        vol_semiannual = _ann_vol_from_logret_window(logret, WINDOWS["semiannual"])
 
         for sym in batch:
             p = last_price.get(sym, np.nan)
-            v = vol.get(sym, np.nan)
-            
-            # Pega do cache, ou usa o ticker se não achar
+
+            vA = vol_annual.get(sym, np.nan)
+            vW = vol_weekly.get(sym, np.nan)
+            vM = vol_monthly.get(sym, np.nan)
+            vQ = vol_quarterly.get(sym, np.nan)
+            vS = vol_semiannual.get(sym, np.nan)
+
             company_name = SYMBOLS.get(sym, sym)
 
             results.append(
                 {
                     "symbol": sym,
-                    "name": company_name, 
+                    "name": company_name,
                     "price": None if pd.isna(p) else float(round(float(p), 6)),
-                    "vol_annual": None if pd.isna(v) else float(round(float(v), 8)),
+
+                    # anualizada (com base na janela indicada)
+                    "vol_annual": None if pd.isna(vA) else float(round(float(vA), 8)),
+                    "vol_semiannual": None if pd.isna(vS) else float(round(float(vS), 8)),
+                    "vol_quarterly": None if pd.isna(vQ) else float(round(float(vQ), 8)),
+                    "vol_monthly": None if pd.isna(vM) else float(round(float(vM), 8)),
+                    "vol_weekly": None if pd.isna(vW) else float(round(float(vW), 8)),
                 }
             )
 
@@ -241,9 +285,15 @@ def main():
         pd.DataFrame(results).to_csv(OUT_CSV, index=False, encoding="utf-8")
 
     ok_prices = sum(1 for r in results if r["price"] is not None)
-    ok_vols = sum(1 for r in results if r["vol_annual"] is not None)
+    ok_volA = sum(1 for r in results if r["vol_annual"] is not None)
+    ok_volW = sum(1 for r in results if r["vol_weekly"] is not None)
+    ok_volM = sum(1 for r in results if r["vol_monthly"] is not None)
+    ok_volQ = sum(1 for r in results if r["vol_quarterly"] is not None)
+    ok_volS = sum(1 for r in results if r["vol_semiannual"] is not None)
+
     print(f"OK: atualizado {OUT_JSON} com {len(results)} tickers.")
-    print(f"   Preços OK: {ok_prices} | Vols OK: {ok_vols}")
+    print(f"   Preços OK: {ok_prices}")
+    print(f"   Vols OK: anual={ok_volA} | semanal={ok_volW} | mensal={ok_volM} | trimestral={ok_volQ} | semestral={ok_volS}")
 
 
 if __name__ == "__main__":
