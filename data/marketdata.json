@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-01-23T22:36:23.236707+00:00",
+  "generated_at_utc": "2026-01-24T06:15:27.852809+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -19,42 +19,42 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 22757.164062,
+      "price": 22757.160156,
       "vol_annual": 0.14124166,
-      "vol_semiannual": 0.09801198,
-      "vol_quarterly": 0.10247116,
-      "vol_monthly": 0.08995429,
-      "vol_weekly": 0.10396595
+      "vol_semiannual": 0.09801199,
+      "vol_quarterly": 0.10247118,
+      "vol_monthly": 0.0899544,
+      "vol_weekly": 0.10396719
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 23501.244141,
+      "price": 23501.240234,
       "vol_annual": 0.22462422,
       "vol_semiannual": 0.15906651,
-      "vol_quarterly": 0.16220085,
-      "vol_monthly": 0.09891592,
-      "vol_weekly": 0.07283279
+      "vol_quarterly": 0.16220084,
+      "vol_monthly": 0.09891588,
+      "vol_weekly": 0.07283424
     },
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 25605.466797,
+      "price": 25605.470703,
       "vol_annual": 0.22118735,
       "vol_semiannual": 0.15735557,
-      "vol_quarterly": 0.16538627,
-      "vol_monthly": 0.11086975,
-      "vol_weekly": 0.08033432
+      "vol_quarterly": 0.16538628,
+      "vol_monthly": 0.1108698,
+      "vol_weekly": 0.08033318
     },
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 33144.980469,
-      "vol_annual": 0.12910749,
-      "vol_semiannual": 0.10821039,
-      "vol_quarterly": 0.11775474,
-      "vol_monthly": 0.09046331,
-      "vol_weekly": 0.09931111
+      "price": 33145.0,
+      "vol_annual": 0.1291075,
+      "vol_semiannual": 0.10821043,
+      "vol_quarterly": 0.1177548,
+      "vol_monthly": 0.09046355,
+      "vol_weekly": 0.09931248
     },
     {
       "symbol": "TX60.TS",
@@ -69,22 +69,22 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10143.44043,
-      "vol_annual": 0.11250965,
-      "vol_semiannual": 0.08202871,
-      "vol_quarterly": 0.08992251,
-      "vol_monthly": 0.08120018,
-      "vol_weekly": 0.05479271
+      "price": 10143.400391,
+      "vol_annual": 0.11250968,
+      "vol_semiannual": 0.08202888,
+      "vol_quarterly": 0.08992278,
+      "vol_monthly": 0.08120184,
+      "vol_weekly": 0.05478751
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 23317.529297,
-      "vol_annual": 0.13096662,
-      "vol_semiannual": 0.0964378,
-      "vol_quarterly": 0.09572278,
-      "vol_monthly": 0.10391914,
-      "vol_weekly": 0.14077024
+      "price": 23317.5,
+      "vol_annual": 0.13096663,
+      "vol_semiannual": 0.09643787,
+      "vol_quarterly": 0.09572295,
+      "vol_monthly": 0.10392005,
+      "vol_weekly": 0.14077156
     },
     {
       "symbol": "^FCHI",
@@ -179,12 +179,12 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 178858.546875,
-      "vol_annual": 0.15128206,
-      "vol_semiannual": 0.15218243,
-      "vol_quarterly": 0.17989282,
-      "vol_monthly": 0.18081358,
-      "vol_weekly": 0.19768997
+      "price": 178859.0,
+      "vol_annual": 0.15128225,
+      "vol_semiannual": 0.152183,
+      "vol_quarterly": 0.1798938,
+      "vol_monthly": 0.18081623,
+      "vol_weekly": 0.19769164
     },
     {
       "symbol": "^IBX50",
@@ -259,22 +259,22 @@
     {
       "symbol": "000300.SS",
       "name": "CSI 300 (Shanghai + Shenzhen)",
-      "price": 4702.496582,
-      "vol_annual": 0.17513566,
-      "vol_semiannual": 0.14684402,
-      "vol_quarterly": 0.12608003,
-      "vol_monthly": 0.08863808,
-      "vol_weekly": 0.03926653
+      "price": 4702.5,
+      "vol_annual": 0.17513564,
+      "vol_semiannual": 0.14684396,
+      "vol_quarterly": 0.12607992,
+      "vol_monthly": 0.08863757,
+      "vol_weekly": 0.03926274
     },
     {
       "symbol": "399001.SZ",
       "name": "SZSE Component Index (Shenzhen)",
-      "price": 14439.658203,
-      "vol_annual": 0.23154538,
-      "vol_semiannual": 0.20723068,
-      "vol_quarterly": 0.17682358,
-      "vol_monthly": 0.12967168,
-      "vol_weekly": 0.11414563
+      "price": 14439.660156,
+      "vol_annual": 0.23154539,
+      "vol_semiannual": 0.20723069,
+      "vol_quarterly": 0.1768236,
+      "vol_monthly": 0.12967176,
+      "vol_weekly": 0.11414605
     },
     {
       "symbol": "399006.SZ",
