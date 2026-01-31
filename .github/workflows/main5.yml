@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 22:15 UTC = 19:15 Brasil (-03). Dias úteis.
-    - cron: "15 22 * * 1-5"
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
