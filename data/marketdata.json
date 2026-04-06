@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-06T13:52:21.006861+00:00",
+  "generated_at_utc": "2026-04-06T14:53:03.692270+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,7 +9,7 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": 46487.761719,
+      "price": 46583.5,
       "vol_annual": 0.15374849,
       "vol_semiannual": 0.13131558,
       "vol_quarterly": 0.14375033,
@@ -19,7 +19,7 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 22199.763672,
+      "price": 22215.869141,
       "vol_annual": 0.14290341,
       "vol_semiannual": 0.12052538,
       "vol_quarterly": 0.13465278,
@@ -29,7 +29,7 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 22007.746094,
+      "price": 21942.054688,
       "vol_annual": 0.22128138,
       "vol_semiannual": 0.18178529,
       "vol_quarterly": 0.19027295,
@@ -39,7 +39,7 @@
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 24220.455078,
+      "price": 24125.066406,
       "vol_annual": 0.2165662,
       "vol_semiannual": 0.17997485,
       "vol_quarterly": 0.18618697,
@@ -49,7 +49,7 @@
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 33131.5,
+      "price": 33134.078125,
       "vol_annual": 0.13966732,
       "vol_semiannual": 0.15646758,
       "vol_quarterly": 0.17971821,
@@ -59,7 +59,7 @@
     {
       "symbol": "TX60.TS",
       "name": "S&P/TSX 60 Index",
-      "price": 1926.109985,
+      "price": 1924.599976,
       "vol_annual": null,
       "vol_semiannual": null,
       "vol_quarterly": null,
@@ -179,7 +179,7 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 188690.453125,
+      "price": 188517.203125,
       "vol_annual": 0.16566644,
       "vol_semiannual": 0.19184653,
       "vol_quarterly": 0.2224708,
@@ -189,7 +189,7 @@
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 31950.470703,
+      "price": 31909.279297,
       "vol_annual": 0.16435205,
       "vol_semiannual": 0.19004815,
       "vol_quarterly": 0.22041008,
@@ -199,7 +199,7 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 157.759995,
+      "price": 157.869995,
       "vol_annual": 0.16389726,
       "vol_semiannual": 0.19584492,
       "vol_quarterly": 0.2209893,
