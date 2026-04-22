@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-22T20:06:53.181572+00:00",
+  "generated_at_utc": "2026-04-22T21:27:02.952787+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -19,12 +19,12 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 22986.441406,
-      "vol_annual": 0.14368168,
-      "vol_semiannual": 0.124637,
-      "vol_quarterly": 0.14292617,
-      "vol_monthly": 0.15436678,
-      "vol_weekly": 0.11475651
+      "price": 23001.783203,
+      "vol_annual": 0.14368578,
+      "vol_semiannual": 0.12465312,
+      "vol_quarterly": 0.14296038,
+      "vol_monthly": 0.15434158,
+      "vol_weekly": 0.1153042
     },
     {
       "symbol": "^IXIC",
@@ -89,12 +89,12 @@
     {
       "symbol": "^FCHI",
       "name": "CAC 40 (France)",
-      "price": 8156.430176,
-      "vol_annual": 0.15570142,
-      "vol_semiannual": 0.14997482,
-      "vol_quarterly": 0.18503274,
-      "vol_monthly": 0.22947986,
-      "vol_weekly": 0.20876991
+      "price": null,
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
+      "vol_weekly": null
     },
     {
       "symbol": "^AEX",
@@ -179,7 +179,7 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 192948.1875,
+      "price": 192888.953125,
       "vol_annual": 0.16625753,
       "vol_semiannual": 0.19672649,
       "vol_quarterly": 0.21250687,
@@ -189,7 +189,7 @@
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 32650.939453,
+      "price": 32640.599609,
       "vol_annual": 0.16474117,
       "vol_semiannual": 0.1946415,
       "vol_quarterly": 0.20914524,
@@ -199,7 +199,7 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 161.479996,
+      "price": 161.570007,
       "vol_annual": 0.16428412,
       "vol_semiannual": 0.20045305,
       "vol_quarterly": 0.21028706,
