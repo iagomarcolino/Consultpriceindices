@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-05T03:37:53.024496+00:00",
+  "generated_at_utc": "2026-05-05T06:19:25.536826+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -19,12 +19,12 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 22893.462891,
+      "price": 22893.460938,
       "vol_annual": 0.1440022,
-      "vol_semiannual": 0.1266324,
-      "vol_quarterly": 0.14602043,
-      "vol_monthly": 0.12972512,
-      "vol_weekly": 0.17556352
+      "vol_semiannual": 0.12663241,
+      "vol_quarterly": 0.14602045,
+      "vol_monthly": 0.12972519,
+      "vol_weekly": 0.17556381
     },
     {
       "symbol": "^IXIC",
@@ -39,22 +39,22 @@
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 27651.818359,
+      "price": 27651.820312,
       "vol_annual": 0.21640642,
       "vol_semiannual": 0.17823541,
-      "vol_quarterly": 0.19519476,
-      "vol_monthly": 0.15614814,
-      "vol_weekly": 0.08721185
+      "vol_quarterly": 0.19519475,
+      "vol_monthly": 0.15614809,
+      "vol_weekly": 0.08721132
     },
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 33638.871094,
-      "vol_annual": 0.14081838,
-      "vol_semiannual": 0.15331248,
-      "vol_quarterly": 0.17109749,
-      "vol_monthly": 0.12472224,
-      "vol_weekly": 0.2032239
+      "price": 33638.898438,
+      "vol_annual": 0.14081835,
+      "vol_semiannual": 0.15331239,
+      "vol_quarterly": 0.17109731,
+      "vol_monthly": 0.12472153,
+      "vol_weekly": 0.20322125
     },
     {
       "symbol": "TX60.TS",
@@ -159,22 +159,22 @@
     {
       "symbol": "^BSESN",
       "name": "SENSEX (India)",
-      "price": 77269.398438,
-      "vol_annual": 0.13193922,
-      "vol_semiannual": 0.15686324,
-      "vol_quarterly": 0.20532439,
-      "vol_monthly": 0.20988832,
-      "vol_weekly": 0.17336872
+      "price": 76720.890625,
+      "vol_annual": 0.13199839,
+      "vol_semiannual": 0.15642233,
+      "vol_quarterly": 0.20361414,
+      "vol_monthly": 0.20579772,
+      "vol_weekly": 0.13964554
     },
     {
       "symbol": "^NSEI",
       "name": "NIFTY 50 (India)",
-      "price": 24052.599609,
-      "vol_annual": 0.13173541,
-      "vol_semiannual": 0.15463941,
-      "vol_quarterly": 0.19913695,
-      "vol_monthly": 0.18903982,
-      "vol_weekly": 0.12204845
+      "price": 23901.150391,
+      "vol_annual": 0.13200407,
+      "vol_semiannual": 0.15513936,
+      "vol_quarterly": 0.19983782,
+      "vol_monthly": 0.19279504,
+      "vol_weekly": 0.14569454
     },
     {
       "symbol": "^BVSP",
@@ -289,32 +289,32 @@
     {
       "symbol": "^HSI",
       "name": "Hang Seng Index (HK50)",
-      "price": 25823.380859,
-      "vol_annual": 0.22664091,
-      "vol_semiannual": 0.19065483,
-      "vol_quarterly": 0.21562825,
-      "vol_monthly": 0.15647461,
-      "vol_weekly": 0.26096383
+      "price": 25804.970703,
+      "vol_annual": 0.22666576,
+      "vol_semiannual": 0.19074136,
+      "vol_quarterly": 0.21578027,
+      "vol_monthly": 0.15718726,
+      "vol_weekly": 0.26387087
     },
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 8649.0,
-      "vol_annual": 0.1258813,
-      "vol_semiannual": 0.13693141,
-      "vol_quarterly": 0.16167106,
-      "vol_monthly": 0.11641798,
-      "vol_weekly": 0.08026889
+      "price": 8677.0,
+      "vol_annual": 0.12581437,
+      "vol_semiannual": 0.13674716,
+      "vol_quarterly": 0.16139649,
+      "vol_monthly": 0.11510283,
+      "vol_weekly": 0.07273263
     },
     {
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
-      "price": 4901.919922,
-      "vol_annual": 0.12805768,
-      "vol_semiannual": 0.11606427,
-      "vol_quarterly": 0.14039478,
-      "vol_monthly": 0.08244566,
-      "vol_weekly": 0.14319266
+      "price": 4895.529785,
+      "vol_annual": 0.12809719,
+      "vol_semiannual": 0.11620773,
+      "vol_quarterly": 0.14058929,
+      "vol_monthly": 0.08339257,
+      "vol_weekly": 0.14901277
     }
   ]
 }
