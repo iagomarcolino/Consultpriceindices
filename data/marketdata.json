@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T16:08:57.294201+00:00",
+  "generated_at_utc": "2026-08-25T17:05:46.397464+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,57 +9,57 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": 53513.449219,
-      "vol_annual": 0.15534111,
-      "vol_semiannual": 0.13853469,
-      "vol_quarterly": 0.13063322,
-      "vol_monthly": 0.14337931,
-      "vol_weekly": 0.13379659
+      "price": 53500.261719,
+      "vol_annual": 0.15533994,
+      "vol_semiannual": 0.13853095,
+      "vol_quarterly": 0.13062623,
+      "vol_monthly": 0.14336828,
+      "vol_weekly": 0.13367284
     },
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 24737.501953,
-      "vol_annual": 0.14290023,
-      "vol_semiannual": 0.11993355,
-      "vol_quarterly": 0.09486046,
-      "vol_monthly": 0.0791669,
-      "vol_weekly": 0.08003636
+      "price": 24742.394531,
+      "vol_annual": 0.14290018,
+      "vol_semiannual": 0.11993424,
+      "vol_quarterly": 0.09485752,
+      "vol_monthly": 0.07914448,
+      "vol_weekly": 0.07998034
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 26128.484375,
-      "vol_annual": 0.22583417,
-      "vol_semiannual": 0.20831418,
-      "vol_quarterly": 0.217404,
-      "vol_monthly": 0.19269416,
-      "vol_weekly": 0.11407459
+      "price": 26123.134766,
+      "vol_annual": 0.2258313,
+      "vol_semiannual": 0.20830456,
+      "vol_quarterly": 0.2173792,
+      "vol_monthly": 0.19264914,
+      "vol_weekly": 0.11329843
     },
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 29204.976562,
-      "vol_annual": 0.22800571,
-      "vol_semiannual": 0.22916139,
-      "vol_quarterly": 0.25806477,
-      "vol_monthly": 0.22120012,
-      "vol_weekly": 0.10772646
+      "price": 29177.230469,
+      "vol_annual": 0.227992,
+      "vol_semiannual": 0.22911902,
+      "vol_quarterly": 0.25796014,
+      "vol_monthly": 0.22099147,
+      "vol_weekly": 0.10329219
     },
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 36906.871094,
-      "vol_annual": 0.14306079,
-      "vol_semiannual": 0.13324306,
-      "vol_quarterly": 0.10911281,
-      "vol_monthly": 0.08832006,
-      "vol_weekly": 0.05102085
+      "price": 36937.699219,
+      "vol_annual": 0.14307918,
+      "vol_semiannual": 0.13331388,
+      "vol_quarterly": 0.10927364,
+      "vol_monthly": 0.08891898,
+      "vol_weekly": 0.05366245
     },
     {
       "symbol": "TX60.TS",
       "name": "S&P/TSX 60 Index",
-      "price": 2162.97998,
+      "price": null,
       "vol_annual": null,
       "vol_semiannual": null,
       "vol_quarterly": null,
@@ -179,27 +179,27 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 173172.0,
-      "vol_annual": 0.1673896,
-      "vol_semiannual": 0.18602944,
-      "vol_quarterly": 0.16394592,
-      "vol_monthly": 0.1688831,
-      "vol_weekly": 0.10389632
+      "price": 173396.75,
+      "vol_annual": 0.16742493,
+      "vol_semiannual": 0.18615628,
+      "vol_quarterly": 0.16421221,
+      "vol_monthly": 0.16970752,
+      "vol_weekly": 0.10373433
     },
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 29248.390625,
-      "vol_annual": 0.16591579,
-      "vol_semiannual": 0.18190817,
-      "vol_quarterly": 0.16160662,
-      "vol_monthly": 0.16726431,
-      "vol_weekly": 0.09548661
+      "price": 29281.029297,
+      "vol_annual": 0.16594271,
+      "vol_semiannual": 0.18200822,
+      "vol_quarterly": 0.16181419,
+      "vol_monthly": 0.16790024,
+      "vol_weekly": 0.094736
     },
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 144.910004,
+      "price": 145.330002,
       "vol_annual": 0.16716331,
       "vol_semiannual": 0.18365173,
       "vol_quarterly": 0.16158729,
