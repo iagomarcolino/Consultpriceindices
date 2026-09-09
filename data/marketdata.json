@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T01:05:50.549371+00:00",
+  "generated_at_utc": "2026-09-09T06:28:37.729721+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -29,7 +29,7 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 26421.412109,
+      "price": 26421.410156,
       "vol_annual": 0.22430226,
       "vol_semiannual": 0.20706498,
       "vol_quarterly": 0.19568405,
@@ -39,7 +39,7 @@
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 29507.701172,
+      "price": 29507.699219,
       "vol_annual": 0.22678184,
       "vol_semiannual": 0.22863432,
       "vol_quarterly": 0.23018963,
@@ -49,7 +49,7 @@
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 36123.050781,
+      "price": 36123.101562,
       "vol_annual": 0.14359174,
       "vol_semiannual": 0.12989028,
       "vol_quarterly": 0.09603513,
@@ -69,117 +69,117 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10822.099609,
-      "vol_annual": 0.12356137,
-      "vol_semiannual": 0.12357624,
-      "vol_quarterly": 0.08446753,
-      "vol_monthly": 0.06122781,
-      "vol_weekly": 0.06795445
+      "price": 10811.700195,
+      "vol_annual": 0.12340844,
+      "vol_semiannual": 0.12305784,
+      "vol_quarterly": 0.08381076,
+      "vol_monthly": 0.05952505,
+      "vol_weekly": 0.0603411
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 24506.699219,
-      "vol_annual": 0.13493542,
-      "vol_semiannual": 0.13972477,
-      "vol_quarterly": 0.09512312,
-      "vol_monthly": 0.076011,
-      "vol_weekly": 0.08259197
+      "price": 24348.900391,
+      "vol_annual": 0.13487608,
+      "vol_semiannual": 0.13955213,
+      "vol_quarterly": 0.09558535,
+      "vol_monthly": 0.077951,
+      "vol_weekly": 0.09796547
     },
     {
       "symbol": "^FCHI",
       "name": "CAC 40 (France)",
-      "price": 8306.150391,
-      "vol_annual": 0.15379341,
-      "vol_semiannual": 0.15109013,
-      "vol_quarterly": 0.10849217,
-      "vol_monthly": 0.08966181,
-      "vol_weekly": 0.03382471
+      "price": 8317.980469,
+      "vol_annual": 0.15360126,
+      "vol_semiannual": 0.15045935,
+      "vol_quarterly": 0.10764235,
+      "vol_monthly": 0.08839057,
+      "vol_weekly": 0.0277974
     },
     {
       "symbol": "^AEX",
       "name": "AEX (Netherlands)",
-      "price": 1115.420044,
-      "vol_annual": 0.14188516,
-      "vol_semiannual": 0.12924133,
-      "vol_quarterly": 0.09395516,
-      "vol_monthly": 0.07047049,
-      "vol_weekly": 0.06192566
+      "price": 1116.050049,
+      "vol_annual": 0.1417042,
+      "vol_semiannual": 0.12869819,
+      "vol_quarterly": 0.09318192,
+      "vol_monthly": 0.06862719,
+      "vol_weekly": 0.05577189
     },
     {
       "symbol": "^BFX",
       "name": "BEL 20 (Belgium)",
-      "price": 5800.919922,
-      "vol_annual": 0.14924004,
-      "vol_semiannual": 0.14832307,
-      "vol_quarterly": 0.11159856,
-      "vol_monthly": 0.10392694,
-      "vol_weekly": 0.14888208
+      "price": 5796.02002,
+      "vol_annual": 0.14905409,
+      "vol_semiannual": 0.14772244,
+      "vol_quarterly": 0.11069937,
+      "vol_monthly": 0.10131235,
+      "vol_weekly": 0.12164778
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX 40 (Germany)",
-      "price": 26006.529297,
-      "vol_annual": 0.17804501,
-      "vol_semiannual": 0.17352875,
-      "vol_quarterly": 0.12492322,
-      "vol_monthly": 0.09132058,
-      "vol_weekly": 0.06274388
+      "price": 26007.630859,
+      "vol_annual": 0.17781799,
+      "vol_semiannual": 0.17280326,
+      "vol_quarterly": 0.12390676,
+      "vol_monthly": 0.08893206,
+      "vol_weekly": 0.05389225
     },
     {
       "symbol": "^MDAXI",
       "name": "MDAX (Germany Mid Caps)",
-      "price": 32405.439453,
-      "vol_annual": 0.2021875,
-      "vol_semiannual": 0.20766629,
-      "vol_quarterly": 0.14802368,
-      "vol_monthly": 0.13506218,
-      "vol_weekly": 0.06531552
+      "price": 32544.300781,
+      "vol_annual": 0.20195374,
+      "vol_semiannual": 0.20685019,
+      "vol_quarterly": 0.14703925,
+      "vol_monthly": 0.13221754,
+      "vol_weekly": 0.05340401
     },
     {
       "symbol": "^SSMI",
       "name": "SMI - Swiss Market Index",
-      "price": 14279.379883,
-      "vol_annual": 0.14178577,
-      "vol_semiannual": 0.12537518,
-      "vol_quarterly": 0.09403742,
-      "vol_monthly": 0.08294824,
-      "vol_weekly": 0.08668257
+      "price": 14057.610352,
+      "vol_annual": 0.14219001,
+      "vol_semiannual": 0.12723041,
+      "vol_quarterly": 0.0988984,
+      "vol_monthly": 0.0958867,
+      "vol_weekly": 0.12979147
     },
     {
       "symbol": "^SSHI",
       "name": "SPI - Swiss Performance Index",
-      "price": 20066.710938,
-      "vol_annual": 0.13391342,
-      "vol_semiannual": 0.11912232,
-      "vol_quarterly": 0.08675318,
-      "vol_monthly": 0.07127856,
-      "vol_weekly": 0.0722615
+      "price": 19848.240234,
+      "vol_annual": 0.13405741,
+      "vol_semiannual": 0.11992734,
+      "vol_quarterly": 0.08914116,
+      "vol_monthly": 0.07759722,
+      "vol_weekly": 0.09269204
     },
     {
       "symbol": "^BSESN",
       "name": "SENSEX (India)",
-      "price": 76132.8125,
-      "vol_annual": 0.12895418,
-      "vol_semiannual": 0.15158214,
-      "vol_quarterly": 0.10157159,
-      "vol_monthly": 0.06679819,
-      "vol_weekly": 0.09163065
+      "price": 75107.90625,
+      "vol_annual": 0.12883912,
+      "vol_semiannual": 0.15088566,
+      "vol_quarterly": 0.10184688,
+      "vol_monthly": 0.0684651,
+      "vol_weekly": 0.07762535
     },
     {
       "symbol": "^NSEI",
       "name": "NIFTY 50 (India)",
-      "price": 23779.150391,
-      "vol_annual": 0.12775457,
-      "vol_semiannual": 0.14619871,
-      "vol_quarterly": 0.09881939,
-      "vol_monthly": 0.05577206,
-      "vol_weekly": 0.04759158
+      "price": 23496.699219,
+      "vol_annual": 0.12776411,
+      "vol_semiannual": 0.14542633,
+      "vol_quarterly": 0.09873463,
+      "vol_monthly": 0.05704386,
+      "vol_weekly": 0.04893193
     },
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 187366.84375,
+      "price": 187367.0,
       "vol_annual": 0.16753368,
       "vol_semiannual": 0.17736754,
       "vol_quarterly": 0.16663917,
@@ -209,58 +209,58 @@
     {
       "symbol": "^N225",
       "name": "Nikkei 225",
-      "price": 65558.289062,
-      "vol_annual": 0.27003239,
-      "vol_semiannual": 0.31607522,
-      "vol_quarterly": 0.32410557,
-      "vol_monthly": 0.23343247,
-      "vol_weekly": 0.18217985
+      "price": 65102.800781,
+      "vol_annual": 0.26974888,
+      "vol_semiannual": 0.31454032,
+      "vol_quarterly": 0.32032137,
+      "vol_monthly": 0.22820178,
+      "vol_weekly": 0.23434632
     },
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 424.299988,
-      "vol_annual": 2.71082402,
-      "vol_semiannual": 4.93383905,
-      "vol_quarterly": 0.20160234,
-      "vol_monthly": 0.18822653,
-      "vol_weekly": 0.16757005
+      "price": 422.200012,
+      "vol_annual": 2.71082208,
+      "vol_semiannual": 4.93383524,
+      "vol_quarterly": 0.20132105,
+      "vol_monthly": 0.18700154,
+      "vol_weekly": 0.16173975
     },
     {
       "symbol": "^KS11",
       "name": "KOSPI (South Korea)",
-      "price": 7027.47998,
-      "vol_annual": 0.43994865,
-      "vol_semiannual": 0.6716386,
-      "vol_quarterly": 0.76195991,
-      "vol_monthly": 0.48556389,
-      "vol_weekly": 0.34441057
+      "price": 7052.089844,
+      "vol_annual": 0.43893801,
+      "vol_semiannual": 0.66601911,
+      "vol_quarterly": 0.74945021,
+      "vol_monthly": 0.46096531,
+      "vol_weekly": 0.30681095
     },
     {
       "symbol": "^KQ11",
       "name": "KOSDAQ (South Korea)",
-      "price": 826.719971,
-      "vol_annual": 0.3997325,
-      "vol_semiannual": 0.55521509,
-      "vol_quarterly": 0.60710617,
-      "vol_monthly": 0.2924147,
-      "vol_weekly": 0.37023302
+      "price": 829.73999,
+      "vol_annual": 0.39919707,
+      "vol_semiannual": 0.55167495,
+      "vol_quarterly": 0.5990306,
+      "vol_monthly": 0.29136727,
+      "vol_weekly": 0.32618994
     },
     {
       "symbol": "000001.SS",
       "name": "SSE Composite Index (Shanghai)",
-      "price": 3932.698975,
-      "vol_annual": 0.12879604,
-      "vol_semiannual": 0.16795653,
-      "vol_quarterly": 0.17228305,
-      "vol_monthly": 0.13039694,
-      "vol_weekly": 0.03193042
+      "price": 3947.606201,
+      "vol_annual": 0.12862688,
+      "vol_semiannual": 0.16658934,
+      "vol_quarterly": 0.16955095,
+      "vol_monthly": 0.12404233,
+      "vol_weekly": 0.03213901
     },
     {
       "symbol": "000300.SS",
       "name": "CSI 300 (Shanghai + Shenzhen)",
-      "price": 4529.100098,
-      "vol_annual": 0.15455326,
+      "price": 4567.033203,
+      "vol_annual": 0.15477278,
       "vol_semiannual": 0.22149011,
       "vol_quarterly": 0.28866111,
       "vol_monthly": null,
@@ -269,17 +269,17 @@
     {
       "symbol": "399001.SZ",
       "name": "SZSE Component Index (Shenzhen)",
-      "price": 13774.919922,
-      "vol_annual": 0.22658567,
-      "vol_semiannual": 0.30918204,
-      "vol_quarterly": 0.35151661,
-      "vol_monthly": 0.27005344,
-      "vol_weekly": 0.21719684
+      "price": 13692.955078,
+      "vol_annual": 0.22633215,
+      "vol_semiannual": 0.30660325,
+      "vol_quarterly": 0.34568667,
+      "vol_monthly": 0.25650112,
+      "vol_weekly": 0.16697329
     },
     {
       "symbol": "399006.SZ",
       "name": "ChiNext Index (Shenzhen)",
-      "price": 3359.715576,
+      "price": 3348.682617,
       "vol_annual": null,
       "vol_semiannual": null,
       "vol_quarterly": null,
@@ -289,32 +289,32 @@
     {
       "symbol": "^HSI",
       "name": "Hang Seng Index (HK50)",
-      "price": 25413.119141,
-      "vol_annual": 0.19697278,
-      "vol_semiannual": 0.18773972,
-      "vol_quarterly": 0.17852789,
-      "vol_monthly": 0.14345658,
-      "vol_weekly": 0.2223492
+      "price": 25255.849609,
+      "vol_annual": 0.19672843,
+      "vol_semiannual": 0.18615335,
+      "vol_quarterly": 0.17573931,
+      "vol_monthly": 0.13670662,
+      "vol_weekly": 0.16208058
     },
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 8904.0,
-      "vol_annual": 0.12785388,
-      "vol_semiannual": 0.12255954,
-      "vol_quarterly": 0.09221323,
-      "vol_monthly": 0.07835504,
-      "vol_weekly": 0.05008494
+      "price": 8918.700195,
+      "vol_annual": 0.12778352,
+      "vol_semiannual": 0.12244139,
+      "vol_quarterly": 0.09308505,
+      "vol_monthly": 0.08034171,
+      "vol_weekly": 0.08563576
     },
     {
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
-      "price": 5792.279785,
-      "vol_annual": 0.1320794,
-      "vol_semiannual": 0.114933,
-      "vol_quarterly": 0.10462775,
-      "vol_monthly": 0.09642229,
-      "vol_weekly": 0.09269062
+      "price": 5723.240234,
+      "vol_annual": 0.13198335,
+      "vol_semiannual": 0.11496399,
+      "vol_quarterly": 0.1056289,
+      "vol_monthly": 0.09673471,
+      "vol_weekly": 0.10240307
     }
   ]
 }
