@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-14T02:56:39.010696+00:00",
+  "generated_at_utc": "2026-11-14T10:00:32.465735+00:00",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -19,32 +19,32 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 24520.822266,
+      "price": 24520.820312,
       "vol_annual": 0.11197008,
       "vol_semiannual": 0.10682419,
       "vol_quarterly": 0.11757138,
       "vol_monthly": 0.16249063,
-      "vol_weekly": 0.17238069
+      "vol_weekly": 0.17238077
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 25136.273438,
+      "price": 25136.269531,
       "vol_annual": 0.18652696,
-      "vol_semiannual": 0.21401045,
-      "vol_quarterly": 0.20995073,
-      "vol_monthly": 0.30401364,
-      "vol_weekly": 0.25542959
+      "vol_semiannual": 0.21401046,
+      "vol_quarterly": 0.20995076,
+      "vol_monthly": 0.30401368,
+      "vol_weekly": 0.25543011
     },
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 27943.736328,
+      "price": 27943.740234,
       "vol_annual": 0.19759319,
-      "vol_semiannual": 0.24886266,
-      "vol_quarterly": 0.23821764,
-      "vol_monthly": 0.35367178,
-      "vol_weekly": 0.3157343
+      "vol_semiannual": 0.24886264,
+      "vol_quarterly": 0.23821761,
+      "vol_monthly": 0.35367173,
+      "vol_weekly": 0.31573376
     },
     {
       "symbol": "^GSPTSE",
@@ -89,12 +89,12 @@
     {
       "symbol": "^FCHI",
       "name": "CAC 40 (France)",
-      "price": null,
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 8368.910156,
+      "vol_annual": 0.13312095,
+      "vol_semiannual": 0.12051975,
+      "vol_quarterly": 0.12521065,
+      "vol_monthly": 0.12888342,
+      "vol_weekly": 0.06288653
     },
     {
       "symbol": "^AEX",
@@ -159,12 +159,12 @@
     {
       "symbol": "^BSESN",
       "name": "SENSEX (India)",
-      "price": 81592.453125,
-      "vol_annual": 0.13363495,
-      "vol_semiannual": 0.1296323,
-      "vol_quarterly": 0.144887,
-      "vol_monthly": 0.16357103,
-      "vol_weekly": 0.04218172
+      "price": null,
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
+      "vol_weekly": null
     },
     {
       "symbol": "^NSEI",
@@ -179,12 +179,12 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 172457.765625,
-      "vol_annual": 0.21299804,
-      "vol_semiannual": 0.2947459,
-      "vol_quarterly": 0.39243836,
-      "vol_monthly": 0.5737207,
-      "vol_weekly": 0.17395496
+      "price": 172458.0,
+      "vol_annual": 0.21299806,
+      "vol_semiannual": 0.29474596,
+      "vol_quarterly": 0.39243845,
+      "vol_monthly": 0.57372119,
+      "vol_weekly": 0.17395592
     },
     {
       "symbol": "^IBX50",
